@@ -1,0 +1,176 @@
+.calc {
+    background: black;
+    height: 530px;
+    width: 300px;
+    padding: 10PX;
+    border-radius: 20px;
+}
+
+.screen {
+
+    background: rgb(224, 6, 6);
+    height: 110px;
+    padding: 5px;
+    display: flex;
+    border-radius: 20px 20px 0px 0px;
+
+
+
+}
+
+li {
+    list-style: none;
+
+
+}
+
+
+
+.num1 {
+    width: 50px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#n1 {
+
+}
+
+.num2 {
+    width: 50px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.num3 {
+    width: 50px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.num4 {
+    width: 50px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#n1 {
+
+    height: 40px;
+    width: 10px;
+    background: red;
+    margin-top: 10px;
+
+}
+
+#n2 {
+
+    height: 40px;
+    width: 10px;
+    background: red;
+    margin-top: 10px;
+}
+
+#n3 {
+
+    height: 40px;
+    width: 10px;
+    margin-top: 10px;
+    background: red;
+
+}
+
+#n4 {
+
+    height: 40px;
+    width: 10px;
+    margin-top: 10px;
+    background: red;
+
+}
+
+#n5 {
+
+    height: 50px;
+    width: 10px;
+    margin-left: 20px;
+    margin-top: -10px;
+    transform: rotate(90deg);
+    background: red;
+    position: absolute;
+}
+
+#n6 {
+
+    height: 50px;
+    width: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    transform: rotate(90deg);
+    background:red;
+    position: absolute;
+
+}
+
+#n7 {
+
+    height: 50px;
+    width: 10px;
+    margin-left: 20px;
+    margin-top: 70px;
+    transform: rotate(90deg);
+    background: red;
+    position: absolute;
+
+}
+
+
+.touch {
+    height: 380px;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+
+.t1 {
+    background: blue;
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    border: solid black 2px;
+    box-shadow: 4px 4px;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.t1:hover {
+    background: white;
+}
